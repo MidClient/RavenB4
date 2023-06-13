@@ -39,7 +39,7 @@ minecraft {
 
     mappings = "stable_20"
     //clientJvmArgs += "-Dfml.coreMods.load=keystrokesmod.sToNkS.tweaker.FMLLoadingPlugin"
-    clientJvmArgs += '-Dfml.coreMods.load=keystrokesmod.client.mixin.MixinLoader'
+    clientJvmArgs += "-Dfml.coreMods.load=keystrokesmod.client.mixin.MixinLoader"
 }
 
 mixin {
